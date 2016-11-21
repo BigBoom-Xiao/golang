@@ -1,6 +1,6 @@
-// hello project doc.go
+// goweb project doc.go
 
 /*
-hello document
-*/
+ * goweb document
+ */
 package main
