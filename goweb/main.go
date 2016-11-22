@@ -28,7 +28,7 @@ func main() {
 	}
 	http.HandleFunc("/", FrontPage)
 	http.HandleFunc("/compile", Compile)
-	log.Fatal(http.ListenAndServe("127.0.0.1:1234", nil))
+	log.Fatal(http.ListenAndServe(":1234", nil))
 }
 
 func FrontPage(w http.ResponseWriter, _ *http.Request) {
